@@ -94,7 +94,7 @@ public class Seller implements Serializable {
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", birthDate=" + birthDate +
-                ", baseSalary=" + baseSalary +
+                ", baseSalary=" + String.format("%.2f",baseSalary) +
                 ", department=" + department +
                 '}';
     }

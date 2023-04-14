@@ -50,6 +50,6 @@ public class Department implements Serializable {
 
     @Override
     public String toString(){
-        return String.format("Department:%n Name:%s%n Id:%d",this.name,this.id);
+        return String.format("Department: Name:%s Id:%d",this.name,this.id);
     }
 }
